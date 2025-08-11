@@ -1,4 +1,4 @@
-const apiKey = "40702e8129204d55fe3e9a8b6f0448f1";
+const apiKey = "YOUR_API_KEY";
 
 const searchBtn = document.getElementById("searchBtn");
 const cityInput = document.getElementById("cityInpu");
@@ -44,4 +44,5 @@ cityInput.addEventListener("keypress", (e) => {
 });
 darkModeToggle.addEventListener("click", ()=> {
     document.body.classList.toggle("dark-mode");
+
 });
